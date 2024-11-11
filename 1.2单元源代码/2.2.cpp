@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
 	double x;
-	cout << "ÇëÊäÈëxµÄÖµ" << endl;
+	cout << "Ã‡Ã«ÃŠÃ¤ÃˆÃ«xÂµÃ„Ã–Âµ" << endl;
 	cin >> x;
 	if (x > 0 && x < 10) {
 		if (x > 0 && x < 1)
@@ -10,7 +10,7 @@ int main() {
 			cout << 3 - 2 * x << endl;
 		}
 		else if (x >= 1 && x < 5) {
-			cout << 2 / 4 * x + 1 << endl;;
+			cout << 2 /(4* x) + 1 << endl;;
 		}
 		else {
 			cout<< x * x<<endl;
@@ -18,7 +18,7 @@ int main() {
 
 	}
 	else {
-		cout << "¸Ã´¦xÎ´¶¨Òå" << endl;
+		cout << "Â¸ÃƒÂ´Â¦xÃŽÂ´Â¶Â¨Ã’Ã¥" << endl;
 	}
 
 
