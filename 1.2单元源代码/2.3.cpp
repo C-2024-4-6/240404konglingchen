@@ -11,7 +11,7 @@ int main() {
 	else {
 		cout << "三边未能构成三角形" << endl;
 	}
-	if ((a== b == c) || (a ==b && a != b && a != c) || (a == c && a != b && b != c) || (b == c && b != a && b != c))
+	if ((a== b&&b == c) || (a ==b && b != b && a != c) || (a == c && a != b && b != c) || (b == c && b != a && b != c))
 
 	{
 		cout << "该三角形为等腰三角形" << endl;
