@@ -2,19 +2,19 @@
 using namespace std;
 int main() {
 	int a, b, c;
-	cout << "ÇëÊäÈë±ß³¤" << endl;
+	cout << "è¯·è¾“å…¥è¾¹é•¿" << endl;
 	cin >> a >> b >> c;
-	if (a + b > c && a - b<c && a + c>b && a - c<b && b + c>a && b - c < a) {
-		cout << "ÖÜ³¤Îª" << a + b + c << endl;
+	if (a + b > c && a - b<c && a + c>b && a - c<b && b + c>a && b - c < a&&a>0&&b>0&&c>0) {
+		cout << "å‘¨é•¿ä¸º" << a + b + c << endl;
 
 	}
 	else {
-		cout << "Èı±ßÎ´ÄÜ¹¹³ÉÈı½ÇĞÎ" << endl;
+		cout << "ä¸‰è¾¹æœªèƒ½æ„æˆä¸‰è§’å½¢" << endl;
 	}
 	if ((a== b == c) || (a ==b && a != b && a != c) || (a == c && a != b && b != c) || (b == c && b != a && b != c))
 
 	{
-		cout << "¸ÃÈı½ÇĞÎÎªµÈÑüÈı½ÇĞÎ" << endl;
+		cout << "è¯¥ä¸‰è§’å½¢ä¸ºç­‰è…°ä¸‰è§’å½¢" << endl;
 	}
 	return 0;
 }
