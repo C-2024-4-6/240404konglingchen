@@ -21,7 +21,8 @@ int indexOf(const char s1[], const char s2[]) {
 }
 
 int main() {
-    char[] s1, s2;
+    char s1[100];
+    char s2[100];
     cout << "Enter the first string: ";
     cin >> s1;
 
