@@ -23,7 +23,8 @@ void max(Student student[], int size) {
 		if (student[i].GetScore() > hightest->GetScore())
 			hightest = &student[i];
 	}
-	cout << "5ÈËÖÐ×î¸ß·ÖÎª" << hightest->GetScore() << endl;
+	cout << "5äººä¸­æœ€é«˜åˆ†ä¸º" << hightest->GetId() << "å·" << endl;
+cout<<"æˆç»©ä¸º" << hightest->GetScore() << endl;
 }
 int main() {
 	Student students[5] = {
